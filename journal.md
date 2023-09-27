@@ -13,7 +13,7 @@ on a fait
 
 on a fait
 - cp \[options\] source dest
-    cp \[options\] source... directory
+  <br>cp \[options\] source... directory
 - tree
   ./
   |-doissier1
@@ -23,8 +23,8 @@ on a fait
 - rm \[options\] name...
 - file
 - cut  \[-bn\] \[file\]
-    cut \[-c\] \[file\]
-    cut \[-df\] \[file\]
+  <br>cut \[-c\] \[file\]
+  <br>cut \[-df\] \[file\]
 - less
 - Métacaractère * et ?
 ---
