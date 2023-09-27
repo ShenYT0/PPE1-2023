@@ -1,5 +1,5 @@
 #  Journal de Yuntian
-
+Pour le cours repositorie [Programmation et Projet encadré](https://github.com/pmagistry/PPE1-2023)
 ## Séance du 20 septembre
 
 on a fait 
