@@ -34,3 +34,8 @@ on a fait
 - `git clone`
 - `git add <FILE...>`
 - `git status`
+- `git fetch`
+- `git rm <FILE...>`
+- `git pull`
+- `git commit`
+- `git push`
