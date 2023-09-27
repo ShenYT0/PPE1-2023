@@ -31,3 +31,5 @@ on a fait
 - Créer ssh clé dans GitHub
 - sha256
 - git <sous-commande> \[-options...\] \[arguments...\]
+- `git clone`
+- `git add <FILE...>`
