@@ -6,9 +6,9 @@ on a fait
 - Le système de fichier Unix
 - Les commandes
 - Métacaractère /* et ?
+---
 - Crée un compte Github et un repositorie
 
----
 ## Séance du 27 septembre
 
 on a fait
@@ -27,3 +27,6 @@ on a fait
   cut [-df] [file]
 - less
 - Métacaractère /* et ?
+---
+- Créer ssh clé dans GitHub
+- sha256
