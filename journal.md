@@ -33,3 +33,4 @@ on a fait
 - git <sous-commande> \[-options...\] \[arguments...\]
 - `git clone`
 - `git add <FILE...>`
+- `git status`
