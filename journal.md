@@ -39,3 +39,7 @@ on a fait
 - `git pull`
 - `git commit`
 - `git push`
+
+## Séance du 4 octobre
+-  `git reset`
+-  `git revert`
