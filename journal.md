@@ -33,3 +33,13 @@ on a fait
 - git <sous-commande> \[-options...\] \[arguments...\]
 - `git clone`
 - `git add <FILE...>`
+- `git status`
+- `git fetch`
+- `git rm <FILE...>`
+- `git pull`
+- `git commit`
+- `git push`
+
+## Séance du 4 octobre
+-  `git reset`
+-  `git revert`
