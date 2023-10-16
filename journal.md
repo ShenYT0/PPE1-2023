@@ -54,5 +54,5 @@ on a fait
 
 - script
 - commentaires `#`
-- shebang `#!/use/bin/bash
+- shebang `#!/use/bin/bash`
 - variable `$`
