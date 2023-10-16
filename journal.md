@@ -43,3 +43,16 @@ on a fait
 ## Séance du 4 octobre
 -  `git reset`
 -  `git revert`
+
+
+## Séance du 11 octobre
+- stdin 0
+- stdout 1
+- stderr 2
+- `>&` out et err dans un fichier
+- pipe `|`
+
+- script
+- commentaires `#`
+- shebang `#!/use/bin/bash
+- variable `$`
