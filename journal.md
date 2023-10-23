@@ -56,3 +56,43 @@ on a fait
 - commentaires `#`
 - shebang `#!/use/bin/bash`
 - variable `$`
+
+## Séance du 18 octobre
+### Partie Shell
+- Instructions conditionnelles<br>
+`if [ condition ]`<br>`then`<br>&nbsp;&nbsp;&nbsp;&nbsp;`#la condition est valide`<br>
+`else`<br>&nbsp;&nbsp;&nbsp;&nbsp;`#la condition n ’ est pas valide`<br>`fi`
+
+#### Conditions possibles
+- Sur les chemins
+  - **-f fichier** vrai si le fichier existe
+  - **-d dossier** vrai si le dossier existe
+  - **-s fichier** vrai si le fichier existe et n’est pas vide
+- Sur des chaînes de caractères
+  - **= ou !=** tester si deux chaînes sont identiques (=) ou différentes (!=)
+  - **< ou >** pour déterminer si in chaîne est avant ou après une autre dans l’ordre alphabétique
+  - **-n chaine** vrai si la chaîne n’est pas vide
+    - **-z** vrai si la chaîne est vide (ex: argument non fourni)
+- Sur les entiers
+  - **a -eq b** si a est égal à b (**eq**ual)
+  - **a -ne b** si a est différent de b (**n**ot **e**qual)
+  - **a -lt b** si a est plus petit que b (**l**ess **t**han)
+  - **a -gt b** si a est plus grand que b (**g**reater **t**han)
+  - **a -le b** si a est inférieur ou égal à b
+  - **a -ge b** si a supérieur ou égal à b
+- `[[expressions régulières]]`
+- Les boucles FOR <br>
+`for ELEMENT in ENSEMBLE`<br>
+`do`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`#passer chaque $ELEMENT dans ENSEMBLE` <br>
+`done`
+- Les boucles WHILE <br>
+`while [ condition ];` <br>
+`do` <br>
+&nbsp;&nbsp;&nbsp;&nbsp; `#continue à boucler`<br>
+`done` 
+
+### Partie HTML
+lynx -dump -nolist plurital.org
+
+wget, cURL
