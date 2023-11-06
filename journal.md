@@ -96,3 +96,17 @@ on a fait
 lynx -dump -nolist plurital.org
 
 wget, cURL
+
+## Séance du 24 octobre
+> mini-projet
+
+HTML (HyperText Markup Language)
+- Ouvrantes : `<balise>` → le début d’une zone
+- Fermantes : `</balise>` → la fin d’une zone
+- Autofermantes ou vides : `<balise/>` → position dans le document
+
+Pour créer un tableau en HTML, nous avons besoin de 4 balises :
+- table : la balise racine du tableau
+- `tr` : **t**able **r**ow, une ligne (se place dans table)
+- `th` : **t**able **h**eader, une cellule d’entête (seulement la première ligne)
+- `td` : **t**able **d**ata, une cellule classique (toutes les lignes pas entête)
