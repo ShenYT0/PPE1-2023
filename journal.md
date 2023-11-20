@@ -97,7 +97,7 @@ lynx -dump -nolist plurital.org
 
 wget, cURL
 
-## Séance du 24 octobre
+## Séance du 25 octobre
 > mini-projet
 
 HTML (HyperText Markup Language)
@@ -110,3 +110,7 @@ Pour créer un tableau en HTML, nous avons besoin de 4 balises :
 - `tr` : **t**able **r**ow, une ligne (se place dans table)
 - `th` : **t**able **h**eader, une cellule d’entête (seulement la première ligne)
 - `td` : **t**able **d**ata, une cellule classique (toutes les lignes pas entête)
+
+
+## Séance du 15 Novembre
+Github Page
