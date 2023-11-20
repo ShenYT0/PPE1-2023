@@ -1,9 +1,28 @@
 #!/bin/bash
-if [ $# -eq 1 ]
+
+TOPN="$2"
+FICHIER="$1"
+
+if [ ! -f "$1" ]
 then
-    source miniprojetSupEx1.sh "$1" | sort | uniq -c | sort -rn | head -n 25
+    echo 'Pas de fichier donné en argument!'
+    exit 1
 fi
-if [ $# -eq 2 ]
+
+if [ -z "$2" ]
 then
-    source miniprojetSupEx1.sh "$1" | sort | uniq -c | sort -rn | head -n "$2"
+    TOPN=25
 fi
+
+if ! [[ "$TOPN" =~ [1-9][0-9]* ]]
+then
+    echo "Donner moi un chiffre"
+    exit 1
+fi
+
+
+
+source miniprojetSupEx1.sh "$FICHIER" | sort | uniq -c | sort -rn | head -n "$TOPN"
+
+# sort | uniq -c| sort -n | tail -n 3
+# bash or source
